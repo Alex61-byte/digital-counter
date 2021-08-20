@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    position: relative;
+    height: 400px;
+    width: 800px;
+    background-color: rgb(24, 168, 168);
+}
+
+p{
+    position:absolute;
+    top: 150px;
+    left:360px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button{
+    margin-left: 100px;
+    border-radius: 6px;
+    width: 70px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.savedResults{
+    position: relative;
+    margin: 0 auto;
+    background-color: bisque;
+    width: 800px;
+    height: auto;
+    display: block;
+}
+.saved{
+    border: 3px solid orange;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+}

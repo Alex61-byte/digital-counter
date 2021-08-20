@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p id="counter"><span id="hour">00</span>:<span id="minute">00</span>:<span id="seconds">00</span></p>
+        <br>
+        <button id="start" onclick="toStart()" style="background-color: green;color: whitesmoke;">Start</button>
+        <button id="stop" onclick="toStop()" style="background-color: red;color: white;">Stop</button>
+        <button id="reset" onclick="reset()" style="background-color: yellow;color: black;">Reset</button>
+        <button id="save" onclick="save()" style="background-color: rgb(35, 185, 185);color:cornsilk">Save</button>
+    </div>
+    <div class="savedResults"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
